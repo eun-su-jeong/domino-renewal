@@ -1,4 +1,8 @@
+$breakpoint-mobile: 768px;
+$breakpoint-desktop: 1024px;
+$breakpoint-wide: 1280px;
+
 $primary-color: #E51737;
 $secondary-color: #0078AE;
 $font-color: #111;
-$bg-color: #ff0;
+$bg-color: #fff;

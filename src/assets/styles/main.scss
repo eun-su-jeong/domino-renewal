@@ -1,8 +1,28 @@
 @import "variables";
 @import "reset";
+@import "mixins";
 
 body{
   font-family: 'Roboto', sans-serif;
   background-color: $bg-color;
   color: $font-color;
 }
+
+.wrapper{
+  width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+
+  @include respond(tablet) {
+    max-width: 768px;
+  }
+
+  @include respond(desktop) {
+    max-width: 1024px;
+  }
+
+  @include respond(wide) {
+    max-width: 1280px;
+  }
+}
+
